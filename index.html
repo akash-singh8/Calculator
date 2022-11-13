@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="evaluate.js"></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>CALCULATOR</h1>
+
+    <div id="calculator">
+      <div class="row">
+        <input type="text" id="expression" autocomplete="off" />
+      </div>
+      <div class="row">
+        <button class="clr" title="Delete">del</button>
+        <button class="clr" title="Clear All">C</button>
+        <button class="operation" title="Exponent">^</button>
+        <button class="operation" title="Divide">/</button>
+      </div>
+      <div class="row">
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="operation" title="Multiply">*</button>
+      </div>
+      <div class="row">
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="operation" title="Subtract">-</button>
+      </div>
+      <div class="row">
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="operation" title="Addition">+</button>
+      </div>
+      <div class="row">
+        <button class="number" title="Period">.</button>
+        <button class="number">0</button>
+        <button id="prevData" title="Previous Answer">Ans</button>
+        <button id="equate" title="Solve" type="submit">=</button>
+      </div>
+    </div>
+
+    <footer>
+      <a href="https://www.github.com/akash-singh8" target="_blank"
+        >Developed by <strong>~Akash</strong></a
+      >
+    </footer>
+  </body>
+</html>
