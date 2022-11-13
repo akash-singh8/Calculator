@@ -46,4 +46,9 @@ buttons.forEach((btn) => {
   });
 });
 
-let name = "Akash";
+document.querySelector("a").addEventListener("mouseenter", () => {
+  document.querySelector("strong").style.color = "cyan";
+});
+document.querySelector("a").addEventListener("mouseleave", () => {
+  document.querySelector("strong").style.color = "white";
+});
